@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "tsc --outDir ./dist"
+  },
   "dependencies": {
     "@types/node": "^22.15.21",
     "tsx": "^4.19.4",
