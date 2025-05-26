@@ -8,6 +8,6 @@
 
 ```bash
 npm install
-tsc server.ts # TypeScriptのコンパイル
-node server.js # サーバーの起動
+npm run build --{file}
+node dist/{file}.js
 ```
